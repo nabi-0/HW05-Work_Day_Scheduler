@@ -5,6 +5,7 @@ body {
   }
   
   textarea{
+    width: 75%;
     background: transparent;
     border: none;
     resize: none;
@@ -37,6 +38,7 @@ body {
   }
   
   .hour {
+    width: 12.5%;
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
@@ -48,7 +50,7 @@ body {
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: #ff5e00;
     color: white;
   }
   
@@ -58,6 +60,7 @@ body {
   }
   
   .saveBtn {
+    width: 12.5%;
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -70,3 +73,12 @@ body {
     transition: all .3s ease-in-out;
   }
   
+  #refresh {
+    /*width: 10%;*/
+    font-family: 'Open Sans', sans-serif;
+    padding: 13px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #06AED5;
+    color: white;
+  }
